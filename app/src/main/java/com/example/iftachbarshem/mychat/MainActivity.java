@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity implements JavaChatClient.Ca
     final static long TIMESTAMP_TO_COLLECT = 60000;
 
     private EditText editText;
-     ChatAdapter adapter;
+    private ChatAdapter adapter;
     private RecyclerView.LayoutManager layoutManager;
-    RecyclerView recyclerView;
+    private RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
